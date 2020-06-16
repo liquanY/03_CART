@@ -41,7 +41,7 @@ $(function () {
                 $.fn.fullpage.moveSectionDown();
             });
             // 当第4屏的购物车动画结束之后执行收货地址的动画
-            $('.screen04 .03_CART').on('transitionend', function () {
+            $('.screen04 .cart').on('transitionend', function () {
                 $('.screen04 .address').show().find('img:last').fadeIn(1000);
                 $('.screen04 .text').addClass('show');
             });
